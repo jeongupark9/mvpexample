@@ -4,8 +4,5 @@ import android.util.Log
 
 class SplashModel {
     private val TAG : String = "SplashModel"
-    fun modeltestMethod(){
-        Log.d(TAG, "Call ModelTestMethod")
-    }
-
+    fun modeltestMethod() : String = "Call ModelTestMethod"
 }
